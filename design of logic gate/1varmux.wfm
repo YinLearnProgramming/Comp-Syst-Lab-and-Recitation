@@ -1,0 +1,37 @@
+$version
+    Viewlogic Simulation .vwf version 1.0
+$end
+
+$date
+    Thu Oct 06 16:44:28 2016
+$end
+$timescale
+    100 ps
+$end
+#0
+$var wire 1 ! I0 $end
+$dumpvars X! $end
+$var wire 1 " I1 $end
+$dumpvars X" $end
+$var wire 1 # S0 $end
+$dumpvars X# $end
+$var wire 1 $ Q $end
+$dumpvars X$ $end
+$enddefinitions $end
+#0
+1!
+0#
+0"
+1$
+#1000
+1#
+1"
+0!
+#2000
+0#
+0$
+#3000
+1#
+1!
+1$
+#4000

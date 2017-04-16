@@ -1,0 +1,45 @@
+V 5.11
+|
+| Wirelist created using VIEWSIM WIRELISTER 6.08
+| Using initialization file 'c:\mentorgraphics_2004\2004\standard\vsm.ini'
+|    Using 24 attribute filter(s)
+| Long format VIEWSIM file for project C-XOR21
+|
+DW C-XOR21 5 242265249900
+M $1I1\$1I8\$1I5 NOT ( TPHL=1.5NS:5.3NS TPLH=2.4NS:6NS ) $1I1\$1I8\Y +
+ $1I1\$1I8\A
+M $1I2\$1I8\$1I5 NOT ( TPHL=1.5NS:5.3NS TPLH=2.4NS:6NS ) $1I2\$1I8\Y +
+ $1I2\$1I8\A
+M $1I3\$1I9\$1I8 AND2 ( TPHL=2.5NS:6.3NS TPLH=3NS:6.6NS ) $1I3\$1I9\Y +
+ $1I3\$1I9\A $1I3\$1I9\B
+M $1I4\$1I9\$1I8 AND2 ( TPHL=2.5NS:6.3NS TPLH=3NS:6.6NS ) $1I4\$1I9\Y +
+ $1I4\$1I9\A $1I4\$1I9\B
+M $1I5\$1I11\$1I8 OR2 ( TPHL=3NS:6.3NS TPLH=3NS:6.6NS ) $1I5\$1I11\Y +
+ $1I5\$1I11\A $1I5\$1I11\B
+= $1N14 $1I4\B
+= $1N14 $1I4\$1I9\B
+= $1N14 $1I2\Q
+= $1N14 $1I2\$1I8\Y
+= $1N16 $1I3\A
+= $1N16 $1I3\$1I9\A
+= $1N16 $1I1\Q
+= $1N16 $1I1\$1I8\Y
+= $1N20 $1I5\B
+= $1N20 $1I5\$1I11\B
+= $1N20 $1I4\Q
+= $1N20 $1I4\$1I9\Y
+= $1N22 $1I5\A
+= $1N22 $1I5\$1I11\A
+= $1N22 $1I3\Q
+= $1N22 $1I3\$1I9\Y
+= A $1I4\A
+= A $1I4\$1I9\A
+= A $1I1\A
+= A $1I1\$1I8\A
+= B $1I3\B
+= B $1I3\$1I9\B
+= B $1I2\A
+= B $1I2\$1I8\A
+= Q $1I5\Q
+= Q $1I5\$1I11\Y
+WD

@@ -1,0 +1,17 @@
+V 5.11
+|
+| Wirelist created using VIEWSIM WIRELISTER 6.08
+| Using initialization file 'c:\mentorgraphics_2004\2004\standard\vsm.ini'
+|    Using 24 attribute filter(s)
+| Long format VIEWSIM file for project C-AND31
+|
+DW C-AND31 2 124329034600
+M $1I1\$1I13 AND2 ( ) $1I1\Q $1I1\A $1I1\B
+M $1I2\$1I13 AND2 ( ) $1I2\Q $1I2\A $1I2\B
+= $1N7 $1I1\Q
+= $1N7 $1I2\A
+= A $1I1\A
+= B $1I1\B
+= C $1I2\B
+= Q $1I2\Q
+WD

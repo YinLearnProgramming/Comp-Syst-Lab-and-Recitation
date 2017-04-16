@@ -1,0 +1,10 @@
+V 5.11
+|
+| Wirelist created using VIEWSIM WIRELISTER 6.08
+| Using initialization file 'c:\mentorgraphics_2004\2004\standard\vsm.ini'
+|    Using 24 attribute filter(s)
+| Long format VIEWSIM file for project C-OR21
+|
+DW C-OR21 1 371961221800
+M $1I14 OR2 ( ) Q A B
+WD
